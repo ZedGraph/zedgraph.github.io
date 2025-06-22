@@ -2,8 +2,8 @@
 
 This repository hosts the static website for [ZedGraph](https://github.com/ZedGraph/ZedGraph)'s API documentation, generated using [DocFX](https://dotnet.github.io/docfx/).
 
-📌 **Master branch documentation:** [link](https://zedgraph.github.io/master/)
-📌 **v5.1 documentation:** [link](https://zedgraph.github.io/maintenance/v5.1)
+- **Master branch documentation:** [link](https://zedgraph.github.io/master/)
+- **v5.1 documentation:** [link](https://zedgraph.github.io/maintenance/v5.1)
 
 ## 📦 Source
 
