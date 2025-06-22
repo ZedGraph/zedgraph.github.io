@@ -17,7 +17,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y pandoc
 
       - name: 📄 Convert README.md to index.html
-        run: pandoc README.md -o index.html
+        run: pandoc -s README.md -o index.html
 
       - name: 📤 Commit and push index.html
         run: |
