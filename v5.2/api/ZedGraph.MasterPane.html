@@ -935,7 +935,7 @@ instantiated <a class="xref" href="ZedGraph.GraphPane.html">GraphPane</a> object
   <a id="ZedGraph_MasterPane_FindChartRect_" data-uid="ZedGraph.MasterPane.FindChartRect*"></a>
   <h4 id="ZedGraph_MasterPane_FindChartRect_PointF_" data-uid="ZedGraph.MasterPane.FindChartRect(PointF)">FindChartRect(PointF)</h4>
   <div class="markdown level1 summary"><p>Find the <a class="xref" href="ZedGraph.GraphPane.html">GraphPane</a> within the <a class="xref" href="ZedGraph.MasterPane.html#ZedGraph_MasterPane_PaneList">PaneList</a> that contains the
-<see paramref="mousePt"></see> within its <a class="xref" href="ZedGraph.Chart.html#ZedGraph_Chart_Rect">Rect</a>.</p>
+<code data-dev-comment-type="paramref" class="paramref">mousePt</code> within its <a class="xref" href="ZedGraph.Chart.html#ZedGraph_Chart_Rect">Rect</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1039,7 +1039,7 @@ will be returned.</p>
         <td><span class="parametername">index</span></td>
         <td><p>The index number of the item within the selected object
 (where applicable).  For example, for a <a class="xref" href="ZedGraph.CurveItem.html">CurveItem</a> object,
-<see paramref="index"></see> will be the index number of the nearest data point,
+<code data-dev-comment-type="paramref" class="paramref">index</code> will be the index number of the nearest data point,
 accessible via <a class="xref" href="ZedGraph.CurveItem.html#ZedGraph_CurveItem_Points">Points</a>.
 index will be -1 if no data points are available.</p>
 </td>
@@ -1066,7 +1066,7 @@ index will be -1 if no data points are available.</p>
   <div class="markdown level1 remarks"><p>This method first finds the <a class="xref" href="ZedGraph.GraphPane.html">GraphPane</a> within the list that contains
 the specified mouse point.  It then calls the <a class="xref" href="ZedGraph.GraphPane.html#ZedGraph_GraphPane_FindNearestObject_PointF_Graphics_System_Object__System_Int32__">FindNearestObject(PointF, Graphics, out Object, out Int32)</a>
 method to determine which object, if any, was clicked.  With the exception of the
-<see paramref="pane"></see>, all the parameters in this method are identical to those
+<code data-dev-comment-type="paramref" class="paramref">pane</code>, all the parameters in this method are identical to those
 in the <a class="xref" href="ZedGraph.GraphPane.html#ZedGraph_GraphPane_FindNearestObject_PointF_Graphics_System_Object__System_Int32__">FindNearestObject(PointF, Graphics, out Object, out Int32)</a> method.
 If the mouse point lies within the <a class="xref" href="ZedGraph.PaneBase.html#ZedGraph_PaneBase_Rect">Rect</a> of any
 <a class="xref" href="ZedGraph.GraphPane.html">GraphPane</a> item, then that pane will be returned (otherwise it will be
@@ -1076,7 +1076,7 @@ of <a class="xref" href="ZedGraph.ArrowObj.html">ArrowObj</a> and <a class="xref
 <a class="xref" href="ZedGraph.GraphPane.Default.html#ZedGraph_GraphPane_Default_NearestTol">NearestTol</a> pixels), then the object will be returned.
 You must check the type of the object to determine what object was
 selected (for example, &quot;if ( object is Legend ) ...&quot;).  The
-<see paramref="index"></see> parameter returns the index number of the item
+<code data-dev-comment-type="paramref" class="paramref">index</code> parameter returns the index number of the item
 within the selected object (such as the point number within a
 <a class="xref" href="ZedGraph.CurveItem.html">CurveItem</a> object.</p>
 </div>
@@ -1094,7 +1094,7 @@ within the selected object (such as the point number within a
   <a id="ZedGraph_MasterPane_FindPane_" data-uid="ZedGraph.MasterPane.FindPane*"></a>
   <h4 id="ZedGraph_MasterPane_FindPane_PointF_" data-uid="ZedGraph.MasterPane.FindPane(PointF)">FindPane(PointF)</h4>
   <div class="markdown level1 summary"><p>Find the <a class="xref" href="ZedGraph.GraphPane.html">GraphPane</a> within the <a class="xref" href="ZedGraph.MasterPane.html#ZedGraph_MasterPane_PaneList">PaneList</a> that contains the
-<see paramref="mousePt"></see> within its <a class="xref" href="ZedGraph.PaneBase.html#ZedGraph_PaneBase_Rect">Rect</a>.</p>
+<code data-dev-comment-type="paramref" class="paramref">mousePt</code> within its <a class="xref" href="ZedGraph.PaneBase.html#ZedGraph_PaneBase_Rect">Rect</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1356,7 +1356,7 @@ the CreateGraphics() method of the Control or Form.</p>
         <td><span class="parametername">isColumnSpecified</span></td>
         <td><p>Specifies whether the number of columns in each row, or
 the number of rows in each column will be specified.  A value of true indicates the
-number of columns in each row are specified in <see paramref="countList"></see>.</p>
+number of columns in each row are specified in <code data-dev-comment-type="paramref" class="paramref">countList</code>.</p>
 </td>
       </tr>
       <tr>
@@ -1364,7 +1364,7 @@ number of columns in each row are specified in <see paramref="countList"></see>.
         <td><span class="parametername">countList</span></td>
         <td><p>An integer array specifying either the number of columns in
 each row or the number of rows in each column, depending on the value of
-<see paramref="isColumnSpecified"></see>.</p>
+<code data-dev-comment-type="paramref" class="paramref">isColumnSpecified</code>.</p>
 </td>
       </tr>
     </tbody>
@@ -1419,7 +1419,7 @@ the CreateGraphics() method of the Control or Form.</p>
         <td><span class="parametername">isColumnSpecified</span></td>
         <td><p>Specifies whether the number of columns in each row, or
 the number of rows in each column will be specified.  A value of true indicates the
-number of columns in each row are specified in <see paramref="_countList"></see>.</p>
+number of columns in each row are specified in <code data-dev-comment-type="paramref" class="paramref">countList</code>.</p>
 </td>
       </tr>
       <tr>
@@ -1427,7 +1427,7 @@ number of columns in each row are specified in <see paramref="_countList"></see>
         <td><span class="parametername">countList</span></td>
         <td><p>An integer array specifying either the number of columns in
 each row or the number of rows in each column, depending on the value of
-<see paramref="isColumnSpecified"></see>.</p>
+<code data-dev-comment-type="paramref" class="paramref">isColumnSpecified</code>.</p>
 </td>
       </tr>
       <tr>
@@ -1435,12 +1435,12 @@ each row or the number of rows in each column, depending on the value of
         <td><span class="parametername">proportion</span></td>
         <td><p>An array of float values specifying proportional sizes for each
 row or column.  Note that these proportions apply to the non-specified dimension -- that is,
-if <see paramref="isColumnSpecified"></see> is true, then these proportions apply to the row
-heights, and if <see paramref="isColumnSpecified"></see> is false, then these proportions apply
+if <code data-dev-comment-type="paramref" class="paramref">isColumnSpecified</code> is true, then these proportions apply to the row
+heights, and if <code data-dev-comment-type="paramref" class="paramref">isColumnSpecified</code> is false, then these proportions apply
 to the column widths.  The values in this array are arbitrary floats -- the dimension of
 any given row or column is that particular proportional value divided by the sum of all
-the values.  For example, let <see paramref="isColumnSpecified"></see> be true, and
-<see paramref="proportion"></see> is an array with values of { 1.0, 2.0, 3.0 }.  The sum of
+the values.  For example, let <code data-dev-comment-type="paramref" class="paramref">isColumnSpecified</code> be true, and
+<code data-dev-comment-type="paramref" class="paramref">proportion</code> is an array with values of { 1.0, 2.0, 3.0 }.  The sum of
 those values is 6.0.  Therefore, the first row is 1/6th of the available height, the
 second row is 2/6th's of the available height, and the third row is 3/6th's of the
 available height.</p>

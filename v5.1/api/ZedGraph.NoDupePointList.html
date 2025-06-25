@@ -1,0 +1,790 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class NoDupePointList
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class NoDupePointList
+   ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ZedGraph.NoDupePointList">
+  
+  
+  <h1 id="ZedGraph_NoDupePointList" data-uid="ZedGraph.NoDupePointList" class="text-break">Class NoDupePointList
+  </h1>
+  <div class="markdown level0 summary"><p>A collection class to maintain a set of samples.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">NoDupePointList</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="ZedGraph.IPointListEdit.html">IPointListEdit</a></div>
+    <div><a class="xref" href="ZedGraph.IPointList.html">IPointList</a></div>
+    <div><span class="xref">ICloneable</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ZedGraph.html">ZedGraph</a></h6>
+  <h6><strong>Assembly</strong>: ZedGraph.dll</h6>
+  <h5 id="ZedGraph_NoDupePointList_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class NoDupePointList : List&lt;DataPoint&gt;, IPointListEdit, IPointList</code></pre>
+  </div>
+  <h5 id="ZedGraph_NoDupePointList_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>This type, intended for very
+large datasets, will reduce the number of points displayed by eliminating
+individual points that overlay (at the same pixel location) on the graph.
+Note that this type probably does not make sense for line plots, but is intended
+primarily for scatter plots.</p>
+</div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ZedGraph/ZedGraph/new/maintenance/v5.1/apiSpec/new?filename=ZedGraph_NoDupePointList__ctor.md&amp;value=---%0Auid%3A%20ZedGraph.NoDupePointList.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ZedGraph/ZedGraph/blob/maintenance/v5.1/source/ZedGraph/NoDupePointList.cs/#L231">View Source</a>
+  </span>
+  <a id="ZedGraph_NoDupePointList__ctor_" data-uid="ZedGraph.NoDupePointList.#ctor*"></a>
+  <h4 id="ZedGraph_NoDupePointList__ctor" data-uid="ZedGraph.NoDupePointList.#ctor">NoDupePointList()</h4>
+  <div class="markdown level1 summary"><p>default constructor</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NoDupePointList()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ZedGraph/ZedGraph/new/maintenance/v5.1/apiSpec/new?filename=ZedGraph_NoDupePointList__ctor_ZedGraph_NoDupePointList_.md&amp;value=---%0Auid%3A%20ZedGraph.NoDupePointList.%23ctor(ZedGraph.NoDupePointList)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ZedGraph/ZedGraph/blob/maintenance/v5.1/source/ZedGraph/NoDupePointList.cs/#L244">View Source</a>
+  </span>
+  <a id="ZedGraph_NoDupePointList__ctor_" data-uid="ZedGraph.NoDupePointList.#ctor*"></a>
+  <h4 id="ZedGraph_NoDupePointList__ctor_ZedGraph_NoDupePointList_" data-uid="ZedGraph.NoDupePointList.#ctor(ZedGraph.NoDupePointList)">NoDupePointList(NoDupePointList)</h4>
+  <div class="markdown level1 summary"><p>copy constructor -- this returns a copy of the structure,
+but it does not duplicate the data (it just keeps a reference to the original)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NoDupePointList(NoDupePointList rhs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ZedGraph.NoDupePointList.html">NoDupePointList</a></td>
+        <td><span class="parametername">rhs</span></td>
+        <td><p>The NoDupePointList to be copied</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ZedGraph/ZedGraph/new/maintenance/v5.1/apiSpec/new?filename=ZedGraph_NoDupePointList__filteredCount.md&amp;value=---%0Auid%3A%20ZedGraph.NoDupePointList._filteredCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ZedGraph/ZedGraph/blob/maintenance/v5.1/source/ZedGraph/NoDupePointList.cs/#L74">View Source</a>
+  </span>
+  <h4 id="ZedGraph_NoDupePointList__filteredCount" data-uid="ZedGraph.NoDupePointList._filteredCount">_filteredCount</h4>
+  <div class="markdown level1 summary"><p>Protected field that stores the number of data points after filtering (e.g.,
+<a class="xref" href="ZedGraph.NoDupePointList.html#ZedGraph_NoDupePointList_FilterData_ZedGraph_GraphPane_ZedGraph_Axis_ZedGraph_Axis_">FilterData(GraphPane, Axis, Axis)</a> has been called).  The <a class="xref" href="ZedGraph.NoDupePointList.html#ZedGraph_NoDupePointList_Count">Count</a> property
+returns the total count for an unfiltered dataset, or <a class="xref" href="ZedGraph.NoDupePointList.html#ZedGraph_NoDupePointList__filteredCount">_filteredCount</a>
+for a dataset that has been filtered.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int _filteredCount</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ZedGraph/ZedGraph/new/maintenance/v5.1/apiSpec/new?filename=ZedGraph_NoDupePointList__filterMode.md&amp;value=---%0Auid%3A%20ZedGraph.NoDupePointList._filterMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ZedGraph/ZedGraph/blob/maintenance/v5.1/source/ZedGraph/NoDupePointList.cs/#L89">View Source</a>
+  </span>
+  <h4 id="ZedGraph_NoDupePointList__filterMode" data-uid="ZedGraph.NoDupePointList._filterMode">_filterMode</h4>
+  <div class="markdown level1 summary"><p>Protected field that stores a value that determines how close a point must be to a prior
+neighbor in order to be filtered out.  Use the public property <a class="xref" href="ZedGraph.NoDupePointList.html#ZedGraph_NoDupePointList_FilterMode">FilterMode</a>
+to access this value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int _filterMode</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ZedGraph/ZedGraph/new/maintenance/v5.1/apiSpec/new?filename=ZedGraph_NoDupePointList__isFiltered.md&amp;value=---%0Auid%3A%20ZedGraph.NoDupePointList._isFiltered%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ZedGraph/ZedGraph/blob/maintenance/v5.1/source/ZedGraph/NoDupePointList.cs/#L66">View Source</a>
+  </span>
+  <h4 id="ZedGraph_NoDupePointList__isFiltered" data-uid="ZedGraph.NoDupePointList._isFiltered">_isFiltered</h4>
+  <div class="markdown level1 summary"><p>Protected field that stores a value indicating whether or not the data have been filtered.
+If the data have not been filtered, then <a class="xref" href="ZedGraph.NoDupePointList.html#ZedGraph_NoDupePointList_Count">Count</a> will be equal to
+<a class="xref" href="ZedGraph.NoDupePointList.html#ZedGraph_NoDupePointList_TotalCount">TotalCount</a>.  Use the public property <a class="xref" href="ZedGraph.NoDupePointList.html#ZedGraph_NoDupePointList_IsFiltered">IsFiltered</a> to
+access this value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool _isFiltered</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ZedGraph/ZedGraph/new/maintenance/v5.1/apiSpec/new?filename=ZedGraph_NoDupePointList__visibleIndicies.md&amp;value=---%0Auid%3A%20ZedGraph.NoDupePointList._visibleIndicies%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ZedGraph/ZedGraph/blob/maintenance/v5.1/source/ZedGraph/NoDupePointList.cs/#L80">View Source</a>
+  </span>
+  <h4 id="ZedGraph_NoDupePointList__visibleIndicies" data-uid="ZedGraph.NoDupePointList._visibleIndicies">_visibleIndicies</h4>
+  <div class="markdown level1 summary"><p>Protected array of indices for all the points that are currently visible.  This only
+applies if <a class="xref" href="ZedGraph.NoDupePointList.html#ZedGraph_NoDupePointList_IsFiltered">IsFiltered</a> is true.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int[] _visibleIndicies</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ZedGraph/ZedGraph/new/maintenance/v5.1/apiSpec/new?filename=ZedGraph_NoDupePointList_Count.md&amp;value=---%0Auid%3A%20ZedGraph.NoDupePointList.Count%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ZedGraph/ZedGraph/blob/maintenance/v5.1/source/ZedGraph/NoDupePointList.cs/#L164">View Source</a>
+  </span>
+  <a id="ZedGraph_NoDupePointList_Count_" data-uid="ZedGraph.NoDupePointList.Count*"></a>
+  <h4 id="ZedGraph_NoDupePointList_Count" data-uid="ZedGraph.NoDupePointList.Count">Count</h4>
+  <div class="markdown level1 summary"><p>Gets the number of active samples in the collection.  This is the number of
+samples that are non-duplicates.  See the <a class="xref" href="ZedGraph.NoDupePointList.html#ZedGraph_NoDupePointList_TotalCount">TotalCount</a> property
+to get the total number of samples in the list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Count { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ZedGraph/ZedGraph/new/maintenance/v5.1/apiSpec/new?filename=ZedGraph_NoDupePointList_FilterMode.md&amp;value=---%0Auid%3A%20ZedGraph.NoDupePointList.FilterMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ZedGraph/ZedGraph/blob/maintenance/v5.1/source/ZedGraph/NoDupePointList.cs/#L104">View Source</a>
+  </span>
+  <a id="ZedGraph_NoDupePointList_FilterMode_" data-uid="ZedGraph.NoDupePointList.FilterMode*"></a>
+  <h4 id="ZedGraph_NoDupePointList_FilterMode" data-uid="ZedGraph.NoDupePointList.FilterMode">FilterMode</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value that determines how close a point must be to a prior
+neighbor in order to be filtered out.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FilterMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ZedGraph_NoDupePointList_FilterMode_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>A value of 0 indicates that subsequent
+points must coincide exactly at the same pixel location.  A value of 1 or more
+indicates that number of pixels distance from a prior point that will cause
+a new point to be filtered out.  For example, a value of 2 means that, once
+a particular pixel location is taken, any subsequent point that lies within 2
+pixels of that location will be filtered out.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ZedGraph/ZedGraph/new/maintenance/v5.1/apiSpec/new?filename=ZedGraph_NoDupePointList_IsFiltered.md&amp;value=---%0Auid%3A%20ZedGraph.NoDupePointList.IsFiltered%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ZedGraph/ZedGraph/blob/maintenance/v5.1/source/ZedGraph/NoDupePointList.cs/#L115">View Source</a>
+  </span>
+  <a id="ZedGraph_NoDupePointList_IsFiltered_" data-uid="ZedGraph.NoDupePointList.IsFiltered*"></a>
+  <h4 id="ZedGraph_NoDupePointList_IsFiltered" data-uid="ZedGraph.NoDupePointList.IsFiltered">IsFiltered</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether or not the data have been filtered.  If the data
+have not been filtered, then <a class="xref" href="ZedGraph.NoDupePointList.html#ZedGraph_NoDupePointList_Count">Count</a> will be equal to
+<a class="xref" href="ZedGraph.NoDupePointList.html#ZedGraph_NoDupePointList_TotalCount">TotalCount</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsFiltered { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ZedGraph/ZedGraph/new/maintenance/v5.1/apiSpec/new?filename=ZedGraph_NoDupePointList_Item_System_Int32_.md&amp;value=---%0Auid%3A%20ZedGraph.NoDupePointList.Item(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ZedGraph/ZedGraph/blob/maintenance/v5.1/source/ZedGraph/NoDupePointList.cs/#L134">View Source</a>
+  </span>
+  <a id="ZedGraph_NoDupePointList_Item_" data-uid="ZedGraph.NoDupePointList.Item*"></a>
+  <h4 id="ZedGraph_NoDupePointList_Item_System_Int32_" data-uid="ZedGraph.NoDupePointList.Item(System.Int32)">Item[Int32]</h4>
+  <div class="markdown level1 summary"><p>Indexer: get the DataPoint instance at the specified ordinal position in the list</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PointPair this[int index] { get; set; }</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>The ordinal position in the list of points</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ZedGraph.PointPair.html">PointPair</a></td>
+        <td><p>Returns a <a class="xref" href="ZedGraph.PointPair.html">PointPair</a> instance.  The <a class="xref" href="ZedGraph.PointPair.html#ZedGraph_PointPair_Z">Z</a>
+and <a class="xref" href="ZedGraph.PointPair.html#ZedGraph_PointPair_Tag">Tag</a> properties will be defaulted to
+<a class="xref" href="ZedGraph.PointPairBase.html#ZedGraph_PointPairBase_Missing">Missing</a> and null, respectively.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ZedGraph_NoDupePointList_Item_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method will throw an exception if the index is out of range.  This can happen
+if the index is less than the number of filtered values, or if data points are
+removed from a filtered dataset with updating the filter (by calling
+<a class="xref" href="ZedGraph.NoDupePointList.html#ZedGraph_NoDupePointList_FilterData_ZedGraph_GraphPane_ZedGraph_Axis_ZedGraph_Axis_">FilterData(GraphPane, Axis, Axis)</a>).</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ZedGraph/ZedGraph/new/maintenance/v5.1/apiSpec/new?filename=ZedGraph_NoDupePointList_TotalCount.md&amp;value=---%0Auid%3A%20ZedGraph.NoDupePointList.TotalCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ZedGraph/ZedGraph/blob/maintenance/v5.1/source/ZedGraph/NoDupePointList.cs/#L179">View Source</a>
+  </span>
+  <a id="ZedGraph_NoDupePointList_TotalCount_" data-uid="ZedGraph.NoDupePointList.TotalCount*"></a>
+  <h4 id="ZedGraph_NoDupePointList_TotalCount" data-uid="ZedGraph.NoDupePointList.TotalCount">TotalCount</h4>
+  <div class="markdown level1 summary"><p>Gets the total number of samples in the collection.  See the <a class="xref" href="ZedGraph.NoDupePointList.html#ZedGraph_NoDupePointList_Count">Count</a>
+property to get the number of active (non-duplicate) samples in the list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TotalCount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ZedGraph/ZedGraph/new/maintenance/v5.1/apiSpec/new?filename=ZedGraph_NoDupePointList_Add_System_Double_System_Double_.md&amp;value=---%0Auid%3A%20ZedGraph.NoDupePointList.Add(System.Double%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ZedGraph/ZedGraph/blob/maintenance/v5.1/source/ZedGraph/NoDupePointList.cs/#L202">View Source</a>
+  </span>
+  <a id="ZedGraph_NoDupePointList_Add_" data-uid="ZedGraph.NoDupePointList.Add*"></a>
+  <h4 id="ZedGraph_NoDupePointList_Add_System_Double_System_Double_" data-uid="ZedGraph.NoDupePointList.Add(System.Double,System.Double)">Add(Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Append a point to the collection</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(double x, double y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The x value of the point to append</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The y value of the point to append</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ZedGraph/ZedGraph/new/maintenance/v5.1/apiSpec/new?filename=ZedGraph_NoDupePointList_Add_ZedGraph_PointPair_.md&amp;value=---%0Auid%3A%20ZedGraph.NoDupePointList.Add(ZedGraph.PointPair)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ZedGraph/ZedGraph/blob/maintenance/v5.1/source/ZedGraph/NoDupePointList.cs/#L188">View Source</a>
+  </span>
+  <a id="ZedGraph_NoDupePointList_Add_" data-uid="ZedGraph.NoDupePointList.Add*"></a>
+  <h4 id="ZedGraph_NoDupePointList_Add_ZedGraph_PointPair_" data-uid="ZedGraph.NoDupePointList.Add(ZedGraph.PointPair)">Add(PointPair)</h4>
+  <div class="markdown level1 summary"><p>Append a data point to the collection</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(PointPair pt)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ZedGraph.PointPair.html">PointPair</a></td>
+        <td><span class="parametername">pt</span></td>
+        <td><p>The <a class="xref" href="ZedGraph.PointPair.html">PointPair</a> value to append</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ZedGraph/ZedGraph/new/maintenance/v5.1/apiSpec/new?filename=ZedGraph_NoDupePointList_ClearFilter.md&amp;value=---%0Auid%3A%20ZedGraph.NoDupePointList.ClearFilter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ZedGraph/ZedGraph/blob/maintenance/v5.1/source/ZedGraph/NoDupePointList.cs/#L275">View Source</a>
+  </span>
+  <a id="ZedGraph_NoDupePointList_ClearFilter_" data-uid="ZedGraph.NoDupePointList.ClearFilter*"></a>
+  <h4 id="ZedGraph_NoDupePointList_ClearFilter" data-uid="ZedGraph.NoDupePointList.ClearFilter">ClearFilter()</h4>
+  <div class="markdown level1 summary"><p>Clears any filtering previously done by a call to <a class="xref" href="ZedGraph.NoDupePointList.html#ZedGraph_NoDupePointList_FilterData_ZedGraph_GraphPane_ZedGraph_Axis_ZedGraph_Axis_">FilterData(GraphPane, Axis, Axis)</a>.
+After calling this method, all data points will be visible, and
+<a class="xref" href="ZedGraph.NoDupePointList.html#ZedGraph_NoDupePointList_Count">Count</a> will be equal to <a class="xref" href="ZedGraph.NoDupePointList.html#ZedGraph_NoDupePointList_TotalCount">TotalCount</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearFilter()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ZedGraph/ZedGraph/new/maintenance/v5.1/apiSpec/new?filename=ZedGraph_NoDupePointList_Clone.md&amp;value=---%0Auid%3A%20ZedGraph.NoDupePointList.Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ZedGraph/ZedGraph/blob/maintenance/v5.1/source/ZedGraph/NoDupePointList.cs/#L223">View Source</a>
+  </span>
+  <a id="ZedGraph_NoDupePointList_Clone_" data-uid="ZedGraph.NoDupePointList.Clone*"></a>
+  <h4 id="ZedGraph_NoDupePointList_Clone" data-uid="ZedGraph.NoDupePointList.Clone">Clone()</h4>
+  <div class="markdown level1 summary"><p>typesafe clone method</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NoDupePointList Clone()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ZedGraph.NoDupePointList.html">NoDupePointList</a></td>
+        <td><p>A new cloned NoDupePointList.  This returns a copy of the structure,
+but it does not duplicate the data (it just keeps a reference to the original)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ZedGraph/ZedGraph/new/maintenance/v5.1/apiSpec/new?filename=ZedGraph_NoDupePointList_FilterData_ZedGraph_GraphPane_ZedGraph_Axis_ZedGraph_Axis_.md&amp;value=---%0Auid%3A%20ZedGraph.NoDupePointList.FilterData(ZedGraph.GraphPane%2CZedGraph.Axis%2CZedGraph.Axis)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ZedGraph/ZedGraph/blob/maintenance/v5.1/source/ZedGraph/NoDupePointList.cs/#L309">View Source</a>
+  </span>
+  <a id="ZedGraph_NoDupePointList_FilterData_" data-uid="ZedGraph.NoDupePointList.FilterData*"></a>
+  <h4 id="ZedGraph_NoDupePointList_FilterData_ZedGraph_GraphPane_ZedGraph_Axis_ZedGraph_Axis_" data-uid="ZedGraph.NoDupePointList.FilterData(ZedGraph.GraphPane,ZedGraph.Axis,ZedGraph.Axis)">FilterData(GraphPane, Axis, Axis)</h4>
+  <div class="markdown level1 summary"><p>Go through the collection, and hide (filter out) any points that fall on the
+same pixel location as a previously included point.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FilterData(GraphPane pane, Axis xAxis, Axis yAxis)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ZedGraph.GraphPane.html">GraphPane</a></td>
+        <td><span class="parametername">pane</span></td>
+        <td><p>The <a class="xref" href="ZedGraph.GraphPane.html">GraphPane</a> into which the data
+will be plotted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ZedGraph.Axis.html">Axis</a></td>
+        <td><span class="parametername">xAxis</span></td>
+        <td><p>The <a class="xref" href="ZedGraph.Axis.html">Axis</a> class to be used in the X direction
+for plotting these data.  This can be an <a class="xref" href="ZedGraph.XAxis.html">XAxis</a> or a
+<a class="xref" href="ZedGraph.X2Axis.html">X2Axis</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ZedGraph.Axis.html">Axis</a></td>
+        <td><span class="parametername">yAxis</span></td>
+        <td><p>The <a class="xref" href="ZedGraph.Axis.html">Axis</a> class to be used in the Y direction
+for plotting these data.  This can be a <a class="xref" href="ZedGraph.YAxis.html">YAxis</a> or a
+<a class="xref" href="ZedGraph.Y2Axis.html">Y2Axis</a>, and can be a primary or secondary axis (if multiple Y or Y2
+axes are being used).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ZedGraph_NoDupePointList_FilterData_ZedGraph_GraphPane_ZedGraph_Axis_ZedGraph_Axis__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method does not delete any points, it just temporarily hides them until
+the next call to <a class="xref" href="ZedGraph.NoDupePointList.html#ZedGraph_NoDupePointList_FilterData_ZedGraph_GraphPane_ZedGraph_Axis_ZedGraph_Axis_">FilterData(GraphPane, Axis, Axis)</a> or <a class="xref" href="ZedGraph.NoDupePointList.html#ZedGraph_NoDupePointList_ClearFilter">ClearFilter()</a>.
+You should call <a class="xref" href="ZedGraph.NoDupePointList.html#ZedGraph_NoDupePointList_FilterData_ZedGraph_GraphPane_ZedGraph_Axis_ZedGraph_Axis_">FilterData(GraphPane, Axis, Axis)</a> once your collection of points has
+been constructed.  You may need to call <a class="xref" href="ZedGraph.NoDupePointList.html#ZedGraph_NoDupePointList_FilterData_ZedGraph_GraphPane_ZedGraph_Axis_ZedGraph_Axis_">FilterData(GraphPane, Axis, Axis)</a> again if
+you add points, or if the chart rect changes size (by resizing, printing,
+image save, etc.), or if the scale range changes.
+You must call <a class="xref" href="ZedGraph.GraphPane.html#ZedGraph_GraphPane_AxisChange">AxisChange()</a> before calling
+this method so that the <a class="xref" href="ZedGraph.Chart.html#ZedGraph_Chart_Rect">GraphPane.Chart.Rect</a>
+and the scale ranges are valid.  This method is not valid for
+ordinal axes (but ordinal axes don't make sense for very large datasets
+anyway).</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ZedGraph/ZedGraph/new/maintenance/v5.1/apiSpec/new?filename=ZedGraph_NoDupePointList_GetDataPointAt_System_Int32_.md&amp;value=---%0Auid%3A%20ZedGraph.NoDupePointList.GetDataPointAt(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ZedGraph/ZedGraph/blob/maintenance/v5.1/source/ZedGraph/NoDupePointList.cs/#L265">View Source</a>
+  </span>
+  <a id="ZedGraph_NoDupePointList_GetDataPointAt_" data-uid="ZedGraph.NoDupePointList.GetDataPointAt*"></a>
+  <h4 id="ZedGraph_NoDupePointList_GetDataPointAt_System_Int32_" data-uid="ZedGraph.NoDupePointList.GetDataPointAt(System.Int32)">GetDataPointAt(Int32)</h4>
+  <div class="markdown level1 summary"><p>Protected method to access the internal DataPoint collection, without any
+translation to a PointPair.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected DataPoint GetDataPointAt(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>The ordinal position of the DataPoint of interest</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ZedGraph.DataPoint.html">DataPoint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="ZedGraph.IPointListEdit.html">IPointListEdit</a>
+  </div>
+  <div>
+      <a class="xref" href="ZedGraph.IPointList.html">IPointList</a>
+  </div>
+  <div>
+      <span class="xref">ICloneable</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ZedGraph/ZedGraph/new/maintenance/v5.1/apiSpec/new?filename=ZedGraph_NoDupePointList.md&amp;value=---%0Auid%3A%20ZedGraph.NoDupePointList%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/ZedGraph/ZedGraph/blob/maintenance/v5.1/source/ZedGraph/NoDupePointList.cs/#L56" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
