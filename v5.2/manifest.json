@@ -1,0 +1,2170 @@
+{
+  "homepages": [],
+  "source_base_path": "/github/workspace/v5.2",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.AlignH.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.AlignH.html",
+          "hash": "LnNoiaZV3xS7SqcIimvS1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.AlignP.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.AlignP.html",
+          "hash": "YkdQ0PwzGXN35sCmOkFVlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.AlignV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.AlignV.html",
+          "hash": "zuujaavtL42ry3+6seaaIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ArrowObj.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ArrowObj.Default.html",
+          "hash": "YBeTxX05Mz0miSnfEzM9PQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ArrowObj.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ArrowObj.html",
+          "hash": "7rZff6/D6RC27ktoLwdzOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Axis.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Axis.Default.html",
+          "hash": "V8xDUTH7RMEi6MZx7vm8IA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Axis.ScaleFormatHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Axis.ScaleFormatHandler.html",
+          "hash": "K3baE3EkIqPEgfw4aDSJdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Axis.ScaleTitleEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Axis.ScaleTitleEventHandler.html",
+          "hash": "vK2PuqfCD3/sqmnFCZeMrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Axis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Axis.html",
+          "hash": "Tk/VJe4uCMLsyrOdShgjRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.AxisLabel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.AxisLabel.html",
+          "hash": "YVhAg0DK14WznVOjDxtNrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.AxisType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.AxisType.html",
+          "hash": "9TpKoWKdJEOpy32E12dS+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Bar.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Bar.Default.html",
+          "hash": "Cj4iczUpIDVmungQmsEbEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Bar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Bar.html",
+          "hash": "XX4tLK/2ZF9iuhcH6nbVxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.BarBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.BarBase.html",
+          "hash": "zWUa6lYQ0r/g5B/6gqHedQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.BarItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.BarItem.html",
+          "hash": "7HF4v3rs+EBh0KCIjMEEjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.BarSettings.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.BarSettings.Default.html",
+          "hash": "c2KEXlsLQlyXT7twcKmJaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.BarSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.BarSettings.html",
+          "hash": "AT+dEpEYU70MrZjdflExPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.BarType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.BarType.html",
+          "hash": "H/EcEIDI5+o2uMFafc13bQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.BasicArrayPointList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.BasicArrayPointList.html",
+          "hash": "UhyrvK+GiokP7fK5abFaYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Border.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Border.Default.html",
+          "hash": "9o5fcpLAXeW2mH+uinR1Ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Border.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Border.html",
+          "hash": "kGQQ9VQu22z0SwKIZt51bg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.BoxObj.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.BoxObj.Default.html",
+          "hash": "ct64ag9VJ3/SFqxCyxOjjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.BoxObj.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.BoxObj.html",
+          "hash": "Q6w6hhJC+9b51xfyTvzKIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Chart.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Chart.Default.html",
+          "hash": "RYVl9TsoL8j1tH2RWtwWZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Chart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Chart.html",
+          "hash": "4Mb1dDnDdalpLvsRO4ilnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.CollectionPlus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.CollectionPlus.html",
+          "hash": "10irCMcoYC3E6s9GfPS3pQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ColorSymbolRotator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ColorSymbolRotator.html",
+          "hash": "pVJ1iJkU+VejCVRnZnKhXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.CoordType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.CoordType.html",
+          "hash": "qJaAtgHrpOEUFUI3nDrDmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.CurveItem.Comparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.CurveItem.Comparer.html",
+          "hash": "p9tiGPaacM+xZ8R2Ma7UyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.CurveItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.CurveItem.html",
+          "hash": "uCJDjDsojw9S7KlqeL9d7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.CurveList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.CurveList.html",
+          "hash": "+deqYvgWsM8fGu2PIbcKoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.DataPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.DataPoint.html",
+          "hash": "r8Af2MLDHWNtlG1KAj4uSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.DataSourcePointList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.DataSourcePointList.html",
+          "hash": "adKYwBEoHP7EPHMYGUPjoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.DateUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.DateUnit.html",
+          "hash": "wJ/PvnDNULJEF8J5s6solQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.EllipseObj.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.EllipseObj.html",
+          "hash": "pEv9qHj5hMrQQY9Ul+xPGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ErrorBar.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ErrorBar.Default.html",
+          "hash": "BZxbzt02GkyiLSOQ1234OQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ErrorBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ErrorBar.html",
+          "hash": "xMI8g1QAr0vJ8qMO9zf8VA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ErrorBarItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ErrorBarItem.html",
+          "hash": "CYHvIJHOumM1b2dTFbghDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Fill.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Fill.Default.html",
+          "hash": "0XwCWdGviAec96w7ttWAcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Fill.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Fill.html",
+          "hash": "A/1pfc/8o5nj6+Foxat22w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.FillType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.FillType.html",
+          "hash": "SWpPzS6lzA2GFIxDXwQIFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.FilteredPointList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.FilteredPointList.html",
+          "hash": "qqDJJ//dXKjyG9SlvfSmHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.FontSpec.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.FontSpec.Default.html",
+          "hash": "vH19YHNvEZCGRWg+7+4moA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.FontSpec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.FontSpec.html",
+          "hash": "FW7ArJ1ylq2Qo05zHI09aA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.GapLabel.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.GapLabel.Default.html",
+          "hash": "KnG5Iu/yht0IB8od6mcyEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.GapLabel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.GapLabel.html",
+          "hash": "DkZ44qXBT8EuWPuEUeej6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.GasGaugeNeedle.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.GasGaugeNeedle.Default.html",
+          "hash": "WB/qMptfW1vXrO2mdGVvkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.GasGaugeNeedle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.GasGaugeNeedle.html",
+          "hash": "AxVdaSrK8pT5oxU8mLNYlg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.GasGaugeRegion.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.GasGaugeRegion.Default.html",
+          "hash": "hK5+oqyu6YD5sbmbSr/6Xw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.GasGaugeRegion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.GasGaugeRegion.html",
+          "hash": "e6BDGyvCX4vuP9Ab+omtEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.GraphObj.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.GraphObj.Default.html",
+          "hash": "yJtf62hEaDlgrX7Q4Z+DOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.GraphObj.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.GraphObj.html",
+          "hash": "xwafBON8ULZIYMdcYYJP0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.GraphObjList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.GraphObjList.html",
+          "hash": "/URVLaQM4VhC+EbPGbnDTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.GraphPane.AxisChangeEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.GraphPane.AxisChangeEventHandler.html",
+          "hash": "eeXJjGkUxHIfmoNV9FMqSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.GraphPane.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.GraphPane.Default.html",
+          "hash": "A0mtzd3Qqe/zq80lhreSRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.GraphPane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.GraphPane.html",
+          "hash": "yIbt96UXAWka+c1Pt5QMyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.HSBColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.HSBColor.html",
+          "hash": "XuzX7e6LLX0I5ZgYuELZhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.HiLowBar.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.HiLowBar.Default.html",
+          "hash": "PKwPRdXzrv6HPrvTAe9+Ag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.HiLowBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.HiLowBar.html",
+          "hash": "rHUEfYv72o2cnPxFUtBaLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.HiLowBarItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.HiLowBarItem.html",
+          "hash": "cyOjEdxjFv7UCAF0G7D9/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.IPointList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.IPointList.html",
+          "hash": "ZFFC7PYhZvh5rf/KxqeaCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.IPointListEdit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.IPointListEdit.html",
+          "hash": "2namwHTrzFWjbhSzLNWycg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.IValuesToolTip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.IValuesToolTip.html",
+          "hash": "7gCGEY/3i9K7W4x4SoqgoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ImageObj.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ImageObj.Default.html",
+          "hash": "OOXfYCMRrqjCxsku0r1IqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ImageObj.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ImageObj.html",
+          "hash": "1DjEF2jc4mVsUT4z8xMuww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.JapaneseCandleStick.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.JapaneseCandleStick.Default.html",
+          "hash": "bNOSctn72MhyjYVRniICsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.JapaneseCandleStick.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.JapaneseCandleStick.html",
+          "hash": "WNuK2fknXF/9XrE7fNkBcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.JapaneseCandleStickItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.JapaneseCandleStickItem.html",
+          "hash": "Hp7EEFwbpsvevqszkLkUuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Label.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Label.html",
+          "hash": "CV8e2D35pR8x5NtPCbfJqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Legend.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Legend.Default.html",
+          "hash": "r37dSyCPPbHeEIk5gbxMEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Legend.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Legend.html",
+          "hash": "YL+ol8b4FtV7MK/pavXa8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.LegendPos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.LegendPos.html",
+          "hash": "pLy9xtX2Rdot74k3UFOkdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Line.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Line.Default.html",
+          "hash": "tj7Y+slnWQ4yYPXSUmWDyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Line.html",
+          "hash": "CIxKqzUzJMGEF2Lq6Vf0qg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.LineBase.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.LineBase.Default.html",
+          "hash": "NHqKaj2n5Yy9jljEdc+udw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.LineBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.LineBase.html",
+          "hash": "Cogc7++1NBJZofsMS4TFTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.LineItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.LineItem.html",
+          "hash": "Dm012jPeVsJp1yK/ZpLBoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.LineObj.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.LineObj.html",
+          "hash": "7II1xV2OjQ0Ael5wJieqWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.LineType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.LineType.html",
+          "hash": "DvTH/zhA5YcsrllIqwqpHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Link.html",
+          "hash": "eJlH4UDq8PEkyYb8miop2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Location.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Location.html",
+          "hash": "W/Zzrqaxti09ei0QODR2Dw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.MajorGrid.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.MajorGrid.Default.html",
+          "hash": "JbcL1jPEjgz3oQA9t5LEjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.MajorGrid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.MajorGrid.html",
+          "hash": "t5r/YlxX3ZXc080JdCVl2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.MajorTic.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.MajorTic.Default.html",
+          "hash": "8GRCv+H5GBAfyTfPiABlKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.MajorTic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.MajorTic.html",
+          "hash": "VTHfQe0thCgmEd6bWusKwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Margin.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Margin.Default.html",
+          "hash": "MyuSVEpJSd1DbOeBdyrmVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Margin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Margin.html",
+          "hash": "iBX/4X3KkwB8qHViBybiFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.MasterPane.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.MasterPane.Default.html",
+          "hash": "ixMShO0uux/JV9yOk30/5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.MasterPane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.MasterPane.html",
+          "hash": "M3e3G+S84uFLt3f3ZKIA1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.MinorGrid.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.MinorGrid.Default.html",
+          "hash": "h9PvXRwVZRBoaJPrI37kZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.MinorGrid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.MinorGrid.html",
+          "hash": "IpdNVWFwinJXR2QrvwGOBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.MinorTic.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.MinorTic.Default.html",
+          "hash": "jAYspiEKcswOAMcCPPFa9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.MinorTic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.MinorTic.html",
+          "hash": "NpMZRsGqhKS5hyz64L13sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.NoDupePointList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.NoDupePointList.html",
+          "hash": "NbVjUuVsm581gmxVQVmd4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.OHLCBar.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.OHLCBar.Default.html",
+          "hash": "x2fdZhg4xbNPbCujC90RAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.OHLCBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.OHLCBar.html",
+          "hash": "iB3wlCKg+xvaVoLELwpvsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.OHLCBarItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.OHLCBarItem.html",
+          "hash": "Nm7xefuURrxZ0/gVrtf5XQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.PaneBase.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.PaneBase.Default.html",
+          "hash": "r1XX19bEv9pWJYgVrcTdzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.PaneBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.PaneBase.html",
+          "hash": "P3EMiU3acppxI3QrHtHAgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.PaneLayout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.PaneLayout.html",
+          "hash": "EUofnuRC7jlGF1+YqWcHiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.PaneLayoutMgr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.PaneLayoutMgr.html",
+          "hash": "4l1Ku+38mfpwF3UV7FD4cg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.PaneList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.PaneList.html",
+          "hash": "GylFb/lgUputhT7Em6xl+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.PerfDataType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.PerfDataType.html",
+          "hash": "iEkbqDn42jImYDxO6L130A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.PerformanceData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.PerformanceData.html",
+          "hash": "LGghCdep2vjmbm39QMPXLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.PieItem.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.PieItem.Default.html",
+          "hash": "/FSN150Z/hdyVcgSLzoIpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.PieItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.PieItem.html",
+          "hash": "DO38drdIHekOk1r68b/03A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.PieLabelType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.PieLabelType.html",
+          "hash": "0cdw8ym7yI627nI/LiX7zg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.PointD.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.PointD.html",
+          "hash": "wW1z79+TJEVoLlIqVSmrXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.PointPair.PointPairComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.PointPair.PointPairComparer.html",
+          "hash": "yxBZUztxCqlzkjA/EVg26g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.PointPair.PointPairComparerY.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.PointPair.PointPairComparerY.html",
+          "hash": "PoYTjTDKu4Wrfu0iq1M4ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.PointPair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.PointPair.html",
+          "hash": "EfMSAQmZwe9+BC67MNruNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.PointPair4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.PointPair4.html",
+          "hash": "GYuzWkzY/uNQn5ZhN4Y05Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.PointPairBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.PointPairBase.html",
+          "hash": "a4ZoetpIV3e8ZdzQPURzOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.PointPairCV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.PointPairCV.html",
+          "hash": "maSAtYM6m/o8ef16HwdzXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.PointPairList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.PointPairList.html",
+          "hash": "IF2T6kO40h3AStzmVY5swg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.PolyObj.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.PolyObj.html",
+          "hash": "Ftqvk1TvB6Jw5elMCpZFfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.RadarPointList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.RadarPointList.html",
+          "hash": "jcNntZ9eaoBGK7d3VJjV9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.RenderModeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.RenderModeType.html",
+          "hash": "glK+ds6RsrmtpnHFe283lA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.RollingPointPairList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.RollingPointPairList.html",
+          "hash": "aKTxC5IC/KW3MwVULFwJ6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Sample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Sample.html",
+          "hash": "CuWbRiec3ia5VHfLLNEscQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.SampleMultiPointList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.SampleMultiPointList.html",
+          "hash": "njGDW1RyDVuqPr/nJJqe5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.SamplePointList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.SamplePointList.html",
+          "hash": "bPXvH5XU6RQUezuQY3y+Rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.SampleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.SampleType.html",
+          "hash": "hS4Juhz3pcuLdFbsTDSrKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Scale.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Scale.Default.html",
+          "hash": "1GkbatZs1fRdOU7NSrutjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Scale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Scale.html",
+          "hash": "4H57QtD7PSO0XraiM5wevw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ScaleState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ScaleState.html",
+          "hash": "v27KUFxji2obmeFRbAOYag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ScaleStateList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ScaleStateList.html",
+          "hash": "lhgJ65Ti7bg6n4X2M/EdcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ScrollRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ScrollRange.html",
+          "hash": "mWCgeKB7oykEodNl9VZxoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ScrollRangeList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ScrollRangeList.html",
+          "hash": "Q8Mk3RW+fQprPgDEfaVUiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Selection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Selection.html",
+          "hash": "VDiZtdeZv3+k5rbcs5+D9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.SortType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.SortType.html",
+          "hash": "EeTgeWObDfXgnSRiLkpniw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.StepType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.StepType.html",
+          "hash": "vOvEdb2BmxBGqc+ynrhMpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.StickItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.StickItem.html",
+          "hash": "fDEIXCGPuZm/FBV3AjBScg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.StockPointList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.StockPointList.html",
+          "hash": "1il/KdXWuhpECkQlzN6IvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.StockPt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.StockPt.html",
+          "hash": "dsocCRLptgNSUA+/xj2R2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Symbol.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Symbol.Default.html",
+          "hash": "e5KoqoYZZPC/4aC4oqBxLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Symbol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Symbol.html",
+          "hash": "20q3oT5kh0RlrCezHGQwVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.SymbolType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.SymbolType.html",
+          "hash": "J/0UNeqlfKom3mod5r7qqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.TextObj.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.TextObj.Default.html",
+          "hash": "gXMppIAIj9UGFltklQ5//A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.TextObj.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.TextObj.html",
+          "hash": "sYlZvAWmnHOvbfl4V8dXFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ValueHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ValueHandler.html",
+          "hash": "4Ws7ZB55GfKlZGX8P/Es/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ValuesToolTip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ValuesToolTip.html",
+          "hash": "i3cFYZWIKk1Qs4ck6f9U0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.X2Axis.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.X2Axis.Default.html",
+          "hash": "qzZVGuth9M5ODcgUZ1qF1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.X2Axis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.X2Axis.html",
+          "hash": "QtXJtsKz3h6Py+i3vBvTVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.XAxis.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.XAxis.Default.html",
+          "hash": "buOipXV5xggM7LDXebXH+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.XAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.XAxis.html",
+          "hash": "WDgBQ41ftw/dLbNwZTTJ3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.XDate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.XDate.html",
+          "hash": "PUyWMLTQ9EmHBRGwGKd+UA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Y2Axis.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Y2Axis.Default.html",
+          "hash": "yAu7LarrNP2Qt2Uii1/VMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Y2Axis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Y2Axis.html",
+          "hash": "OkEs26dE+iCuj/Ug0kQkqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.Y2AxisList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.Y2AxisList.html",
+          "hash": "P8shONObmEJSvwUzdW++bA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.YAxis.Default.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.YAxis.Default.html",
+          "hash": "i9/lBn+g50C2iGo3XRDU2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.YAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.YAxis.html",
+          "hash": "KQIuzx14igyACODuWtPXGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.YAxisList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.YAxisList.html",
+          "hash": "G5sw57y5urp78Y2aKWA3sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ZOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ZOrder.html",
+          "hash": "Pui2y+ZcEQ2nzFJIn827Lg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ZedGraphControl.ContextMenuBuilderEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ZedGraphControl.ContextMenuBuilderEventHandler.html",
+          "hash": "SHTnPZ2Bdg7rhABtBlzIBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ZedGraphControl.ContextMenuObjectState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ZedGraphControl.ContextMenuObjectState.html",
+          "hash": "Gv06vKqGTbIW31m/E8BV8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ZedGraphControl.CursorValueHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ZedGraphControl.CursorValueHandler.html",
+          "hash": "Sa//rwsyAwfay0p09GRq3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ZedGraphControl.LinkEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ZedGraphControl.LinkEventHandler.html",
+          "hash": "12/vAYJAS/GZ3B6BV+cxzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ZedGraphControl.PointEditHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ZedGraphControl.PointEditHandler.html",
+          "hash": "Js/CPo04IKugcqxwsiq9kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ZedGraphControl.PointValueHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ZedGraphControl.PointValueHandler.html",
+          "hash": "zzxLAAFxdwVopujHselw1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ZedGraphControl.ScrollDoneHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ZedGraphControl.ScrollDoneHandler.html",
+          "hash": "QWJYgB5SM9FjeV3oM9DEFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ZedGraphControl.ScrollProgressHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ZedGraphControl.ScrollProgressHandler.html",
+          "hash": "XKYhA6osMouJ+3ZGmYWrcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ZedGraphControl.ZedMouseEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ZedGraphControl.ZedMouseEventHandler.html",
+          "hash": "0nYhF9dinRtnl+q2muk08Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ZedGraphControl.ZoomEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ZedGraphControl.ZoomEventHandler.html",
+          "hash": "obRBEpKW4SQ8WELzO3S3JA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ZedGraphControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ZedGraphControl.html",
+          "hash": "FLksdjyT4rCE/8ZQKLnfLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ZedGraphException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ZedGraphException.html",
+          "hash": "WQfSo+h3wuErp7hqDdMlbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ZoomState.StateType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ZoomState.StateType.html",
+          "hash": "nHYIvwMIzLc9tiUx25wKAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ZoomState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ZoomState.html",
+          "hash": "CcVPnwA8llHpajISjOqUaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.ZoomStateStack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.ZoomStateStack.html",
+          "hash": "Bt8pvZJLmozOUCYricTUQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ZedGraph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ZedGraph.html",
+          "hash": "FOeWJgOaEteaTgacYDc0kg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "HrqO5/CHQ2NeHOdAkMkxVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "c0sLq/Yj/RYPLjG8Mh4lPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "8+7GMJWwB85pEdHghmE7rA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 170,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

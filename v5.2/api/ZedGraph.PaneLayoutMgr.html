@@ -1,0 +1,549 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class PaneLayoutMgr
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class PaneLayoutMgr
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ZedGraph.PaneLayoutMgr">
+  
+  
+  <h1 id="ZedGraph_PaneLayoutMgr" data-uid="ZedGraph.PaneLayoutMgr" class="text-break">Class PaneLayoutMgr
+  </h1>
+  <div class="markdown level0 summary"><p>internal class to store pane layout details for the <a class="xref" href="ZedGraph.MasterPane.html">MasterPane</a></p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">PaneLayoutMgr</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">ISerializable</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ZedGraph.html">ZedGraph</a></h6>
+  <h6><strong>Assembly</strong>: ZedGraph.dll</h6>
+  <h5 id="ZedGraph_PaneLayoutMgr_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PaneLayoutMgr : ICloneable, ISerializable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ZedGraph/ZedGraph/new/maintenance/v5.2/apiSpec/new?filename=ZedGraph_PaneLayoutMgr__ctor_SerializationInfo_StreamingContext_.md&amp;value=---%0Auid%3A%20ZedGraph.PaneLayoutMgr.%23ctor(SerializationInfo%2CStreamingContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ZedGraph/ZedGraph/blob/maintenance/v5.2/source/ZedGraph/PaneLayoutMgr.cs/#L129">View Source</a>
+  </span>
+  <a id="ZedGraph_PaneLayoutMgr__ctor_" data-uid="ZedGraph.PaneLayoutMgr.#ctor*"></a>
+  <h4 id="ZedGraph_PaneLayoutMgr__ctor_SerializationInfo_StreamingContext_" data-uid="ZedGraph.PaneLayoutMgr.#ctor(SerializationInfo,StreamingContext)">PaneLayoutMgr(SerializationInfo, StreamingContext)</h4>
+  <div class="markdown level1 summary"><p>Constructor for deserializing objects</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PaneLayoutMgr(SerializationInfo info, StreamingContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SerializationInfo</span></td>
+        <td><span class="parametername">info</span></td>
+        <td><p>A <see cref="!:SerializationInfo"></see> instance that defines the serialized data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">StreamingContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>A <see cref="!:StreamingContext"></see> instance that contains the serialized data</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ZedGraph/ZedGraph/new/maintenance/v5.2/apiSpec/new?filename=ZedGraph_PaneLayoutMgr_Clone.md&amp;value=---%0Auid%3A%20ZedGraph.PaneLayoutMgr.Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ZedGraph/ZedGraph/blob/maintenance/v5.2/source/ZedGraph/PaneLayoutMgr.cs/#L108">View Source</a>
+  </span>
+  <a id="ZedGraph_PaneLayoutMgr_Clone_" data-uid="ZedGraph.PaneLayoutMgr.Clone*"></a>
+  <h4 id="ZedGraph_PaneLayoutMgr_Clone" data-uid="ZedGraph.PaneLayoutMgr.Clone">Clone()</h4>
+  <div class="markdown level1 summary"><p>Typesafe, deep-copy clone method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PaneLayoutMgr Clone()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ZedGraph.PaneLayoutMgr.html">PaneLayoutMgr</a></td>
+        <td><p>A new, independent copy of this class</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ZedGraph/ZedGraph/new/maintenance/v5.2/apiSpec/new?filename=ZedGraph_PaneLayoutMgr_DoLayout_Graphics_ZedGraph_MasterPane_.md&amp;value=---%0Auid%3A%20ZedGraph.PaneLayoutMgr.DoLayout(Graphics%2CZedGraph.MasterPane)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ZedGraph/ZedGraph/blob/maintenance/v5.2/source/ZedGraph/PaneLayoutMgr.cs/#L319">View Source</a>
+  </span>
+  <a id="ZedGraph_PaneLayoutMgr_DoLayout_" data-uid="ZedGraph.PaneLayoutMgr.DoLayout*"></a>
+  <h4 id="ZedGraph_PaneLayoutMgr_DoLayout_Graphics_ZedGraph_MasterPane_" data-uid="ZedGraph.PaneLayoutMgr.DoLayout(Graphics,ZedGraph.MasterPane)">DoLayout(Graphics, MasterPane)</h4>
+  <div class="markdown level1 summary"><p>Modify the <a class="xref" href="ZedGraph.GraphPane.html">GraphPane</a> <a class="xref" href="ZedGraph.PaneBase.html#ZedGraph_PaneBase_Rect">Rect</a> sizes of each
+<a class="xref" href="ZedGraph.GraphPane.html">GraphPane</a> such that they fit within the <a class="xref" href="ZedGraph.MasterPane.html">MasterPane</a>
+in a pre-configured layout.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DoLayout(Graphics g, MasterPane master)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Graphics</span></td>
+        <td><span class="parametername">g</span></td>
+        <td><p>A <see cref="!:Graphics"></see> instance to be used for font sizing,
+etc. in determining the layout configuration.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ZedGraph.MasterPane.html">MasterPane</a></td>
+        <td><span class="parametername">master</span></td>
+        <td><p>The <a class="xref" href="ZedGraph.MasterPane.html">MasterPane</a> instance which is to
+be resized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ZedGraph_PaneLayoutMgr_DoLayout_Graphics_ZedGraph_MasterPane__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The <a class="xref" href="ZedGraph.PaneLayoutMgr.html#ZedGraph_PaneLayoutMgr_SetLayout_ZedGraph_PaneLayout_">SetLayout(PaneLayout)</a> method (and overloads) is
+used for setting the layout configuration.</p>
+</div>
+  <h5 id="ZedGraph_PaneLayoutMgr_DoLayout_Graphics_ZedGraph_MasterPane__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="ZedGraph.PaneLayoutMgr.html#ZedGraph_PaneLayoutMgr_SetLayout_ZedGraph_PaneLayout_">SetLayout(PaneLayout)</a></div>
+      <div><a class="xref" href="ZedGraph.PaneLayoutMgr.html#ZedGraph_PaneLayoutMgr_SetLayout_System_Int32_System_Int32_">SetLayout(Int32, Int32)</a></div>
+      <div><a class="xref" href="ZedGraph.PaneLayoutMgr.html#ZedGraph_PaneLayoutMgr_SetLayout_System_Boolean_System_Int32___">SetLayout(Boolean, Int32[])</a></div>
+      <div><a class="xref" href="ZedGraph.PaneLayoutMgr.html#ZedGraph_PaneLayoutMgr_SetLayout_System_Boolean_System_Int32___System_Single___">SetLayout(Boolean, Int32[], Single[])</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ZedGraph/ZedGraph/new/maintenance/v5.2/apiSpec/new?filename=ZedGraph_PaneLayoutMgr_GetObjectData_SerializationInfo_StreamingContext_.md&amp;value=---%0Auid%3A%20ZedGraph.PaneLayoutMgr.GetObjectData(SerializationInfo%2CStreamingContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ZedGraph/ZedGraph/blob/maintenance/v5.2/source/ZedGraph/PaneLayoutMgr.cs/#L147">View Source</a>
+  </span>
+  <a id="ZedGraph_PaneLayoutMgr_GetObjectData_" data-uid="ZedGraph.PaneLayoutMgr.GetObjectData*"></a>
+  <h4 id="ZedGraph_PaneLayoutMgr_GetObjectData_SerializationInfo_StreamingContext_" data-uid="ZedGraph.PaneLayoutMgr.GetObjectData(SerializationInfo,StreamingContext)">GetObjectData(SerializationInfo, StreamingContext)</h4>
+  <div class="markdown level1 summary"><p>Populates a <see cref="!:SerializationInfo"></see> instance with the data needed to serialize the target object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void GetObjectData(SerializationInfo info, StreamingContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SerializationInfo</span></td>
+        <td><span class="parametername">info</span></td>
+        <td><p>A <see cref="!:SerializationInfo"></see> instance that defines the serialized data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">StreamingContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>A <see cref="!:StreamingContext"></see> instance that contains the serialized data</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ZedGraph/ZedGraph/new/maintenance/v5.2/apiSpec/new?filename=ZedGraph_PaneLayoutMgr_SetLayout_System_Boolean_System_Int32___.md&amp;value=---%0Auid%3A%20ZedGraph.PaneLayoutMgr.SetLayout(System.Boolean%2CSystem.Int32%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ZedGraph/ZedGraph/blob/maintenance/v5.2/source/ZedGraph/PaneLayoutMgr.cs/#L240">View Source</a>
+  </span>
+  <a id="ZedGraph_PaneLayoutMgr_SetLayout_" data-uid="ZedGraph.PaneLayoutMgr.SetLayout*"></a>
+  <h4 id="ZedGraph_PaneLayoutMgr_SetLayout_System_Boolean_System_Int32___" data-uid="ZedGraph.PaneLayoutMgr.SetLayout(System.Boolean,System.Int32[])">SetLayout(Boolean, Int32[])</h4>
+  <div class="markdown level1 summary"><p>Automatically set all of the <a class="xref" href="ZedGraph.GraphPane.html">GraphPane</a> <a class="xref" href="ZedGraph.PaneBase.html#ZedGraph_PaneBase_Rect">Rect</a>'s in
+the list to the specified configuration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetLayout(bool isColumnSpecified, int[] countList)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isColumnSpecified</span></td>
+        <td><p>Specifies whether the number of columns in each row, or
+the number of rows in each column will be specified.  A value of true indicates the
+number of columns in each row are specified in <see paramref="countList"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span>[]</td>
+        <td><span class="parametername">countList</span></td>
+        <td><p>An integer array specifying either the number of columns in
+each row or the number of rows in each column, depending on the value of
+<see paramref="isColumnSpecified"></see>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ZedGraph_PaneLayoutMgr_SetLayout_System_Boolean_System_Int32____remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method specifies the number of rows in each column, or the number of
+columns in each row, allowing for irregular layouts.  Overloads are available that
+provide other layout options.</p>
+</div>
+  <h5 id="ZedGraph_PaneLayoutMgr_SetLayout_System_Boolean_System_Int32____seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="ZedGraph.PaneLayoutMgr.html#ZedGraph_PaneLayoutMgr_SetLayout_ZedGraph_PaneLayout_">SetLayout(PaneLayout)</a></div>
+      <div><a class="xref" href="ZedGraph.PaneLayoutMgr.html#ZedGraph_PaneLayoutMgr_SetLayout_System_Int32_System_Int32_">SetLayout(Int32, Int32)</a></div>
+      <div><a class="xref" href="ZedGraph.PaneLayoutMgr.html#ZedGraph_PaneLayoutMgr_SetLayout_System_Boolean_System_Int32___System_Single___">SetLayout(Boolean, Int32[], Single[])</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ZedGraph/ZedGraph/new/maintenance/v5.2/apiSpec/new?filename=ZedGraph_PaneLayoutMgr_SetLayout_System_Boolean_System_Int32___System_Single___.md&amp;value=---%0Auid%3A%20ZedGraph.PaneLayoutMgr.SetLayout(System.Boolean%2CSystem.Int32%5B%5D%2CSystem.Single%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ZedGraph/ZedGraph/blob/maintenance/v5.2/source/ZedGraph/PaneLayoutMgr.cs/#L277">View Source</a>
+  </span>
+  <a id="ZedGraph_PaneLayoutMgr_SetLayout_" data-uid="ZedGraph.PaneLayoutMgr.SetLayout*"></a>
+  <h4 id="ZedGraph_PaneLayoutMgr_SetLayout_System_Boolean_System_Int32___System_Single___" data-uid="ZedGraph.PaneLayoutMgr.SetLayout(System.Boolean,System.Int32[],System.Single[])">SetLayout(Boolean, Int32[], Single[])</h4>
+  <div class="markdown level1 summary"><p>Automatically set all of the <a class="xref" href="ZedGraph.GraphPane.html">GraphPane</a> <a class="xref" href="ZedGraph.PaneBase.html#ZedGraph_PaneBase_Rect">Rect</a>'s in
+the list to the specified configuration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetLayout(bool isColumnSpecified, int[] countList, float[] proportion)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isColumnSpecified</span></td>
+        <td><p>Specifies whether the number of columns in each row, or
+the number of rows in each column will be specified.  A value of true indicates the
+number of columns in each row are specified in <see paramref="_countList"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span>[]</td>
+        <td><span class="parametername">countList</span></td>
+        <td><p>An integer array specifying either the number of columns in
+each row or the number of rows in each column, depending on the value of
+<see paramref="isColumnSpecified"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span>[]</td>
+        <td><span class="parametername">proportion</span></td>
+        <td><p>An array of float values specifying proportional sizes for each
+row or column.  Note that these proportions apply to the non-specified dimension -- that is,
+if <see paramref="isColumnSpecified"></see> is true, then these proportions apply to the row
+heights, and if <see paramref="isColumnSpecified"></see> is false, then these proportions apply
+to the column widths.  The values in this array are arbitrary floats -- the dimension of
+any given row or column is that particular proportional value divided by the sum of all
+the values.  For example, let <see paramref="isColumnSpecified"></see> be true, and
+<see paramref="proportion"></see> is an array with values of { 1.0, 2.0, 3.0 }.  The sum of
+those values is 6.0.  Therefore, the first row is 1/6th of the available height, the
+second row is 2/6th's of the available height, and the third row is 3/6th's of the
+available height.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ZedGraph_PaneLayoutMgr_SetLayout_System_Boolean_System_Int32___System_Single____remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method specifies the number of panes in each row or column, allowing for
+irregular layouts.</p>
+</div>
+  <h5 id="ZedGraph_PaneLayoutMgr_SetLayout_System_Boolean_System_Int32___System_Single____seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="ZedGraph.PaneLayoutMgr.html#ZedGraph_PaneLayoutMgr_SetLayout_ZedGraph_PaneLayout_">SetLayout(PaneLayout)</a></div>
+      <div><a class="xref" href="ZedGraph.PaneLayoutMgr.html#ZedGraph_PaneLayoutMgr_SetLayout_System_Int32_System_Int32_">SetLayout(Int32, Int32)</a></div>
+      <div><a class="xref" href="ZedGraph.PaneLayoutMgr.html#ZedGraph_PaneLayoutMgr_SetLayout_System_Boolean_System_Int32___">SetLayout(Boolean, Int32[])</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ZedGraph/ZedGraph/new/maintenance/v5.2/apiSpec/new?filename=ZedGraph_PaneLayoutMgr_SetLayout_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20ZedGraph.PaneLayoutMgr.SetLayout(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ZedGraph/ZedGraph/blob/maintenance/v5.2/source/ZedGraph/PaneLayoutMgr.cs/#L206">View Source</a>
+  </span>
+  <a id="ZedGraph_PaneLayoutMgr_SetLayout_" data-uid="ZedGraph.PaneLayoutMgr.SetLayout*"></a>
+  <h4 id="ZedGraph_PaneLayoutMgr_SetLayout_System_Int32_System_Int32_" data-uid="ZedGraph.PaneLayoutMgr.SetLayout(System.Int32,System.Int32)">SetLayout(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Automatically set all of the <a class="xref" href="ZedGraph.GraphPane.html">GraphPane</a> <a class="xref" href="ZedGraph.PaneBase.html#ZedGraph_PaneBase_Rect">Rect</a>'s in
+the list to a reasonable configuration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetLayout(int rows, int columns)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">rows</span></td>
+        <td><p>The number of rows of <a class="xref" href="ZedGraph.GraphPane.html">GraphPane</a> objects
+to include in the layout</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">columns</span></td>
+        <td><p>The number of columns of <a class="xref" href="ZedGraph.GraphPane.html">GraphPane</a> objects
+to include in the layout</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ZedGraph_PaneLayoutMgr_SetLayout_System_Int32_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method explicitly specifies the number of rows and columns to use
+in the layout, and all <a class="xref" href="ZedGraph.GraphPane.html">GraphPane</a> objects will have the same size.
+Overloads are available that provide other layout options</p>
+</div>
+  <h5 id="ZedGraph_PaneLayoutMgr_SetLayout_System_Int32_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="ZedGraph.PaneLayoutMgr.html#ZedGraph_PaneLayoutMgr_SetLayout_ZedGraph_PaneLayout_">SetLayout(PaneLayout)</a></div>
+      <div><a class="xref" href="ZedGraph.PaneLayoutMgr.html#ZedGraph_PaneLayoutMgr_SetLayout_System_Boolean_System_Int32___">SetLayout(Boolean, Int32[])</a></div>
+      <div><a class="xref" href="ZedGraph.PaneLayoutMgr.html#ZedGraph_PaneLayoutMgr_SetLayout_System_Boolean_System_Int32___System_Single___">SetLayout(Boolean, Int32[], Single[])</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ZedGraph/ZedGraph/new/maintenance/v5.2/apiSpec/new?filename=ZedGraph_PaneLayoutMgr_SetLayout_ZedGraph_PaneLayout_.md&amp;value=---%0Auid%3A%20ZedGraph.PaneLayoutMgr.SetLayout(ZedGraph.PaneLayout)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ZedGraph/ZedGraph/blob/maintenance/v5.2/source/ZedGraph/PaneLayoutMgr.cs/#L185">View Source</a>
+  </span>
+  <a id="ZedGraph_PaneLayoutMgr_SetLayout_" data-uid="ZedGraph.PaneLayoutMgr.SetLayout*"></a>
+  <h4 id="ZedGraph_PaneLayoutMgr_SetLayout_ZedGraph_PaneLayout_" data-uid="ZedGraph.PaneLayoutMgr.SetLayout(ZedGraph.PaneLayout)">SetLayout(PaneLayout)</h4>
+  <div class="markdown level1 summary"><p>Automatically set all of the <a class="xref" href="ZedGraph.GraphPane.html">GraphPane</a> <a class="xref" href="ZedGraph.PaneBase.html#ZedGraph_PaneBase_Rect">Rect</a>'s in
+the list to a pre-defined layout configuration from a <a class="xref" href="ZedGraph.PaneLayout.html">PaneLayout</a>
+enumeration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetLayout(PaneLayout paneLayout)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ZedGraph.PaneLayout.html">PaneLayout</a></td>
+        <td><span class="parametername">paneLayout</span></td>
+        <td><p>A <a class="xref" href="ZedGraph.PaneLayout.html">PaneLayout</a> enumeration that describes how
+the panes should be laid out within the <a class="xref" href="ZedGraph.PaneBase.html#ZedGraph_PaneBase_Rect">Rect</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ZedGraph_PaneLayoutMgr_SetLayout_ZedGraph_PaneLayout__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method uses a <a class="xref" href="ZedGraph.PaneLayout.html">PaneLayout</a> enumeration to describe the type of layout
+to be used.  Overloads are available that provide other layout options</p>
+</div>
+  <h5 id="ZedGraph_PaneLayoutMgr_SetLayout_ZedGraph_PaneLayout__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="ZedGraph.PaneLayoutMgr.html#ZedGraph_PaneLayoutMgr_SetLayout_System_Int32_System_Int32_">SetLayout(Int32, Int32)</a></div>
+      <div><a class="xref" href="ZedGraph.PaneLayoutMgr.html#ZedGraph_PaneLayoutMgr_SetLayout_System_Boolean_System_Int32___">SetLayout(Boolean, Int32[])</a></div>
+      <div><a class="xref" href="ZedGraph.PaneLayoutMgr.html#ZedGraph_PaneLayoutMgr_SetLayout_System_Boolean_System_Int32___System_Single___">SetLayout(Boolean, Int32[], Single[])</a></div>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">ISerializable</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ZedGraph/ZedGraph/new/maintenance/v5.2/apiSpec/new?filename=ZedGraph_PaneLayoutMgr.md&amp;value=---%0Auid%3A%20ZedGraph.PaneLayoutMgr%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/ZedGraph/ZedGraph/blob/maintenance/v5.2/source/ZedGraph/PaneLayoutMgr.cs/#L34" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
